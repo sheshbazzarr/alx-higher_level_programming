@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     """
-    import functions from modules
+    import functions from modules update
     """
 
     from calculator_1 import add, sub, mul, div
