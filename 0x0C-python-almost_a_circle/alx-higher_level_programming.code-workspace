@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "alx-higher_level_programming",
+			"path": ".."
+		},
+		{
+			"name": "0x0B-python-input_output",
+			"path": "../../alx-higher_level_programming-master/0x0B-python-input_output"
+		},
+		{
+			"name": "0x0A-python-inheritance",
+			"path": "../../alx-higher_level_programming-master/0x0A-python-inheritance"
+		}
+	],
+	"settings": {}
+}
