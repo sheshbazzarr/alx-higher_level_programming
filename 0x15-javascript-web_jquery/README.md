@@ -61,3 +61,55 @@ Include jQuery in your HTML files:
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 
+# Tasks
+
+## 0. No JQuery
+Write a JavaScript script that updates the text color of the `<header>` element to red (#FF0000). You must use `document.querySelector` to select the HTML tag. The jQuery API is not allowed.
+
+**File:** `0-script.js`
+
+## 1. With JQuery
+Write a JavaScript script that updates the text color of the `<header>` element to red (#FF0000). Use the jQuery API instead of `document.querySelector`.
+
+**File:** `1-script.js`
+
+## 2. Click and turn red
+Write a JavaScript script that updates the text color of the `<header>` element to red (#FF0000) when the user clicks on the tag `DIV#red_header`. Use the jQuery API.
+
+**File:** `2-script.js`
+
+## 3. Add .red class
+Write a JavaScript script that adds the class `red` to the `<header>` element when the user clicks on the tag `DIV#red_header`. Use the jQuery API.
+
+**File:** `3-script.js`
+
+## 4. Toggle classes
+Write a JavaScript script that toggles the class of the `<header>` element between `red` and `green` when the user clicks on the tag `DIV#toggle_header`. The `<header>` element must always have one class: `red` or `green`, never both and never empty. Use the jQuery API.
+
+**File:** `4-script.js`
+
+## 5. List of elements
+Write a JavaScript script that adds an `<li>` element to a list when the user clicks on the tag `DIV#add_item`. The new element must be `<li>Item</li>` and added to `UL.my_list`. Use the jQuery API.
+
+**File:** `5-script.js`
+
+## 6. Change the text
+Write a JavaScript script that updates the text of the `<header>` element to "New Header!!!" when the user clicks on `DIV#update_header`. Use the jQuery API.
+
+**File:** `6-script.js`
+
+## 7. Star Wars character
+Write a JavaScript script that fetches the character name from the URL `https://swapi-api.alx-tools.com/api/people/5/?format=json` and displays it in the HTML tag `DIV#character`. Use the jQuery API.
+
+**File:** `7-script.js`
+
+## 8. Star Wars movies
+Write a JavaScript script that fetches and lists the titles of all movies using the URL `https://swapi-api.alx-tools.com/api/films/?format=json`. The movie titles must be listed in the HTML tag `UL#list_movies`. Use the jQuery API.
+
+**File:** `8-script.js`
+
+## 9. Say Hello!
+Write a JavaScript script that fetches from `https://hellosalut.stefanbohacek.dev/?lang=fr` and displays the value of "hello" in the HTML tag `DIV#hello`. Your script must work when it is imported from the `<head>` tag. Use the jQuery API.
+
+**File:** `9-script.js`
+
