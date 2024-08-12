@@ -113,3 +113,144 @@ Write a JavaScript script that fetches from `https://hellosalut.stefanbohacek.de
 
 **File:** `9-script.js`
 
+
+
+
+## Advanced Tasks
+
+10. **No jQuery - document loaded**
+   Write a JavaScript script that updates the text color of the `<header>` element to red (#FF0000):
+   - You must use `document.querySelector` to select the HTML tag.
+   - You can’t use the jQuery API.
+   - Note: Your script must be imported from the `<head>` tag, not at the end of the HTML.
+   - File: [100-script.js](100-script.js)
+   - HTML file for testing:
+     ```html
+     <!DOCTYPE html>
+     <html lang="en">
+       <head>
+         <title>Holberton School</title>
+         <script type="text/javascript" src="100-script.js"></script>
+       </head>
+       <body>
+         <header> 
+           First HTML page
+         </header>
+         <footer>
+           Holberton School - 2017
+         </footer>
+       </body>
+     </html>
+     ```
+
+11. **List, add, remove**
+   Write a JavaScript script that adds, removes, and clears `<li>` elements from a list when the user clicks:
+   - The new element must be: `<li>Item</li>`.
+   - The new element must be added to `UL.my_list`.
+   - When the user clicks on `DIV#add_item`: a new element is added to the list.
+   - When the user clicks on `DIV#remove_item`: the last element is removed from the list.
+   - When the user clicks on `DIV#clear_list`: all elements of the list are removed.
+   - You can’t use `document.querySelector` to select the HTML tag.
+   - You must use the jQuery API.
+   - Your script must work when imported from the `<head>` tag.
+   - File: [101-script.js](101-script.js)
+   - HTML file for testing:
+     ```html
+     <!DOCTYPE html>
+     <html lang="en">
+       <head>
+         <title>Holberton School</title>
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+         <script type="text/javascript" src="101-script.js"></script>
+       </head>
+       <body>
+         <header> 
+           First HTML page
+         </header>
+         <br />
+         <div id="add_item">Add item</div>
+         <div id="remove_item">Remove item</div>
+         <div id="clear_list">Clear list</div>
+         <br />
+         <ul class="my_list">
+           <li>Item</li>
+         </ul>
+         <footer>
+           Holberton School - 2017
+         </footer>
+       </body>
+     </html>
+     ```
+
+12. **Say hello to everybody!**
+   Write a JavaScript script that fetches and prints how to say “Hello” depending on the language:
+   - You should use the API service: `https://www.fourtonfish.com/hellosalut/hello/`.
+   - The language code will be the value entered in the tag `INPUT#language_code` (e.g., es, fr, en, etc.).
+   - The translation must be fetched when the user clicks on `INPUT#btn_translate`.
+   - The translation of “Hello” must be displayed in the HTML tag `DIV#hello`.
+   - You can’t use `document.querySelector` to select the HTML tag.
+   - You must use the jQuery API.
+   - Your script must work when imported from the `<head>` tag.
+   - File: [102-script.js](102-script.js)
+   - HTML file for testing:
+     ```html
+     <!DOCTYPE html>
+     <html lang="en">
+       <head>
+         <title>Holberton School</title>
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+         <script type="text/javascript" src="102-script.js"></script>
+       </head>
+       <body>
+         <header> 
+           Say Hello
+         </header>
+         <br />
+         <input id="language_code" type="text" placeholder="Language code"/>
+         <input id="btn_translate" type="button" value="Translate"/>
+         <br />
+         <div id="hello"></div>
+         <br />
+         <footer>
+           Holberton School - 2017
+         </footer>
+       </body>
+     </html>
+     ```
+
+13. **And press ENTER**
+   Write a JavaScript script that fetches and prints how to say “Hello” depending on the language:
+   - You should use the API service: `https://www.fourtonfish.com/hellosalut/hello/`.
+   - The language code will be the value entered in the tag `INPUT#language_code` (e.g., es, fr, en, etc.).
+   - The translation must be fetched when the user clicks on `INPUT#btn_translate` or presses ENTER when the focus is on `INPUT#language_code`.
+   - The translation of “Hello” must be displayed in the HTML tag `DIV#hello`.
+   - You can’t use `document.querySelector` to select the HTML tag.
+   - You must use the jQuery API.
+   - Your script must work when imported from the `<head>` tag.
+   - File: [103-script.js](103-script.js)
+   - HTML file for testing:
+     ```html
+     <!DOCTYPE html>
+     <html lang="en">
+       <head>
+         <title>Holberton School</title>
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+         <script type="text/javascript" src="103-script.js"></script>
+       </head>
+       <body>
+         <header> 
+           Say Hello
+         </header>
+         <br />
+         <input id="language_code" type="text" placeholder="Language code"/>
+         <input id="btn_translate" type="button" value="Translate"/>
+         <br />
+         <div id="hello"></div>
+         <br />
+         <footer>
+           Holberton School - 2017
+         </footer>
+       </body>
+     </html>
+     ```
+
